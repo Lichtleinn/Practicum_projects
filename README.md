@@ -17,4 +17,4 @@ DS projects with Yandex.Practicum
 | [9_Taxi_orders](9_Taxi_orders)| Прогнозирование количества заказов такси и оптимизация количества водителей на маршруте| *pandas, numpy, sklearn, matplotlib, seaborn, math, statsmodels, scipy, datetime, date, time, phik, catboost, lightgbm, itertools* |
 | [10_Toxic_comments](10_Toxic_comments)| Классификация комментариев интернет-магазина на токсичные и стандартные| *pandas, numpy, sklearn, matplotlib, seaborn, plotly.express, re, nltk, torch, transformers, tqdm, pymystem3, catboost, time, pandarallel* |
 | [11_Customer_age](11_Customer_age)| Определение возраста покупателей с помощью моделей компьютерного зрения| *pandas, numpy, tensorflow, PIL* |
-| [12_Metal_temperature](12_Metal_temperature)| Оптимизация потребления электроэнергии на этапе обработки стали путем контроля температуры сплава| *pandas* |
+| [12_Metal_temperature](12_Metal_temperature)| Оптимизация потребления электроэнергии на этапе обработки стали путем контроля температуры сплава| *pandas, numpy, sklearn, matplotlib, seaborn, plotly.express, statsmodels, math, scipy, math, phik, shap, datetime, catboost, lightgbm* |
