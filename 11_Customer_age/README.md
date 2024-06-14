@@ -1,29 +1,18 @@
-# Недвижимость Санкт-Петербурга
-
+# Возраст покупателей по фото
 
 ## Данные
 
-Архив объявлений сервиса Яндекс Недвижимость о продаже квартир в Санкт-Петербурге и соседних населённых пунктах за несколько лет:
-- общая площадь
-- жилая площадь
-- площадь кухни
-- цена объекта
-- количество комнат
-- высота потолков
-- тип этажа квартиры («первый», «последний», «другой»)
-- общее количество этажей в доме
-- расстояние до центра города в метрах
-- расстояние до ближайшего парка
+Набор фотографий людей с указанием возраста
 
 ## Задача
 
-Провести исследовательский анализ данных, который поможет установить параметры, влияющие на цену объектов. Это позволит построить автоматизированную систему: она отследит аномалии и мошенническую деятельность. 
+Построить модель нейронной сети, которая по фотографии определит приблизительный возраст человека.
 
 ## Используемые библиотеки
-*pandas, numpy, sklearn, matplotlib, seaborn, math, scipy, datetime, random, phik*
+*pandas, numpy, tensorflow, PIL*
 
 ## Используемые методы
-*LinearRegression, LogisticRegression, OneVsRestClassifier, train_test_split, StandardScaler, OneHotEncoder, confusion_matrix, normaltest, shapiro, anderson*
+*LinearRegression, LogisticRegression, OneVsRestClassifier, train_test_split, StandardScaler, OneHotEncoder, keras, Sequential, Conv2D, Flatten, Dense, AvgPool2D, GlobalAveragePooling2D, Adam, ImageDataGenerator, ResNet50, Image*
 
 ## Метрики
 *accuracy_score, precision_score, recall_score, r2_score, mean_squared_error, mean_absolute_error*
