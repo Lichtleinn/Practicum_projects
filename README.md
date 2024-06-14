@@ -13,7 +13,7 @@ DS projects with Yandex.Practicum
 | [5_Customer_activity](5_Customer_activity)| Анализ и прогнозрование активности покупателей интернет-магазина, сегментация клиентов по группам признаков, разработка персонализированных предложений для ключевых сегментов клиентов| *pandas, numpy, sklearn, matplotlib, seaborn, plotly.express, math, scipy, statsmodels, phik, shap* |
 | [6_Employees_satisfaction](6_Employees_satisfaction)| Определение уровня удовлетворенности сотрудников работой в компании и прогнозирование оттока сотрудников| *pandas, numpy, sklearn, matplotlib, seaborn, plotly.express, math, os, scipy, statsmodels, phik* |
 | [7_Oil_wells](7_Oil_wells)| Выявление наиболее перспективного региона для разработки нефтяных скважин на основе анализа запасов нефти и максимальной прибыли | *pandas, numpy, sklearn, matplotlib, seaborn, math, scipy, phik* |
-| [8_Car_price](8_Car_price)| Предсказание стоимости автомобилей в зависимости от технических характеристик и комплектации, при минимальном времени обучения модели и минимальном отклонении метрик | *pandas* |
+| [8_Car_price](8_Car_price)| Предсказание стоимости автомобилей в зависимости от технических характеристик и комплектации, при минимальном времени обучения модели и минимальном отклонении метрик | *pandas, numpy, sklearn, matplotlib, seaborn, datetime, time, math, scipy, phik, catboost, lightgbm* |
 | [9_Taxi_orders](9_Taxi_orders)| Прогнозирование количества заказов такси и оптимизация количества водителей на маршруте| *pandas* |
 | [10_Toxic_comments](10_Toxic_comments)| Классификация комментариев интернет-магазина на токсичные и стандартные| *pandas* |
 | [11_Customer_age](11_Customer_age)| Определение возраста покупателей с помощью моделей компьютерного зрения| *pandas* |
