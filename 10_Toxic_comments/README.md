@@ -1,29 +1,18 @@
-# Недвижимость Санкт-Петербурга
-
+# Токсичные комментарии
 
 ## Данные
 
-Архив объявлений сервиса Яндекс Недвижимость о продаже квартир в Санкт-Петербурге и соседних населённых пунктах за несколько лет:
-- общая площадь
-- жилая площадь
-- площадь кухни
-- цена объекта
-- количество комнат
-- высота потолков
-- тип этажа квартиры («первый», «последний», «другой»)
-- общее количество этажей в доме
-- расстояние до центра города в метрах
-- расстояние до ближайшего парка
+Датасет с комментариями и оценкой текста (позитивный, негативный)
 
 ## Задача
 
-Провести исследовательский анализ данных, который поможет установить параметры, влияющие на цену объектов. Это позволит построить автоматизированную систему: она отследит аномалии и мошенническую деятельность. 
+Обучить модель классифицировать комментарии на позитивные и негативные
 
 ## Используемые библиотеки
-*pandas, numpy, sklearn, matplotlib, seaborn, math, scipy, datetime, random, phik*
+*pandas, numpy, sklearn, matplotlib, seaborn, plotly.express, re, nltk, torch, transformers, tqdm, pymystem3, catboost, time, pandarallel*
 
 ## Используемые методы
-*LinearRegression, LogisticRegression, OneVsRestClassifier, train_test_split, StandardScaler, OneHotEncoder, confusion_matrix, normaltest, shapiro, anderson*
+*LogisticRegression, RandomForestClassifier, DecisionTreeClassifier, KNeighborsClassifier, RandomForestRegressor, ExtraTreesRegressor, SVC, CatBoostClassifier, HistGradientBoostingClassifier, train_test_split, Pipeline, StandardScaler, OneHotEncoder, GridSearchCV, RandomizedSearchCV, tqdm, notebook, stopwords, wordnet, TfidfVectorizer, CountVectorizer, Mystem, word_tokenize, WordNetLemmatizer, enable_hist_gradient_boosting*
 
 ## Метрики
-*accuracy_score, precision_score, recall_score, r2_score, mean_squared_error, mean_absolute_error*
+*f1_score, make_scorer, cross_val_score*
