@@ -15,6 +15,6 @@ DS projects with Yandex.Practicum
 | [7_Oil_wells](7_Oil_wells)| Выявление наиболее перспективного региона для разработки нефтяных скважин на основе анализа запасов нефти и максимальной прибыли | *pandas, numpy, sklearn, matplotlib, seaborn, math, scipy, phik* |
 | [8_Car_price](8_Car_price)| Предсказание стоимости автомобилей в зависимости от технических характеристик и комплектации, при минимальном времени обучения модели и минимальном отклонении метрик | *pandas, numpy, sklearn, matplotlib, seaborn, datetime, time, math, scipy, phik, catboost, lightgbm* |
 | [9_Taxi_orders](9_Taxi_orders)| Прогнозирование количества заказов такси и оптимизация количества водителей на маршруте| *pandas, numpy, sklearn, matplotlib, seaborn, math, statsmodels, scipy, datetime, date, time, phik, catboost, lightgbm, itertools* |
-| [10_Toxic_comments](10_Toxic_comments)| Классификация комментариев интернет-магазина на токсичные и стандартные| *pandas* |
+| [10_Toxic_comments](10_Toxic_comments)| Классификация комментариев интернет-магазина на токсичные и стандартные| *pandas, numpy, sklearn, matplotlib, seaborn, plotly.express, re, nltk, torch, transformers, tqdm, pymystem3, catboost, time, pandarallel* |
 | [11_Customer_age](11_Customer_age)| Определение возраста покупателей с помощью моделей компьютерного зрения| *pandas* |
 | [12_Metal_temperature](12_Metal_temperature)| Оптимизация потребления электроэнергии на этапе обработки стали путем контроля температуры сплава| *pandas* |
