@@ -1,29 +1,21 @@
-# Недвижимость Санкт-Петербурга
-
+# Выбор локации для скважины
 
 ## Данные
 
-Архив объявлений сервиса Яндекс Недвижимость о продаже квартир в Санкт-Петербурге и соседних населённых пунктах за несколько лет:
-- общая площадь
-- жилая площадь
-- площадь кухни
-- цена объекта
-- количество комнат
-- высота потолков
-- тип этажа квартиры («первый», «последний», «другой»)
-- общее количество этажей в доме
-- расстояние до центра города в метрах
-- расстояние до ближайшего парка
+Данные геологоразведки трёх регионов с показателями:
+- id — уникальный идентификатор скважины
+- f0, f1, f2 — три признака точек (неважно, что они означают, но сами признаки значимы)
+- product — объём запасов в скважине (тыс. баррелей)
 
 ## Задача
 
-Провести исследовательский анализ данных, который поможет установить параметры, влияющие на цену объектов. Это позволит построить автоматизированную систему: она отследит аномалии и мошенническую деятельность. 
+Проанализировав характеристики скважин: качество нефти и объём её запасов, построить модель для предсказания объёма запасов в новых скважинах, отобрать скважины с самыми высокими оценками значений и определить т регион с максимальной суммарной прибылью.
 
 ## Используемые библиотеки
-*pandas, numpy, sklearn, matplotlib, seaborn, math, scipy, datetime, random, phik*
+*pandas, numpy, sklearn, matplotlib, seaborn, math, scipy, phik*
 
 ## Используемые методы
-*LinearRegression, LogisticRegression, OneVsRestClassifier, train_test_split, StandardScaler, OneHotEncoder, confusion_matrix, normaltest, shapiro, anderson*
+*LinearRegression, LogisticRegression, train_test_split, StandardScaler, OneHotEncoder, SimpleImputer, ColumnTransformer, OrdinalEncoder, LabelEncoder, MinMaxScaler, RobustScaler, PowerTransformer, PolynomialFeaturesconfusion_matrix, normaltest, shapiro, anderson, pearsonr, qqplot, Pipeline, train_test_split, RandomizedSearchCV, permutation_importance*
 
 ## Метрики
-*accuracy_score, precision_score, recall_score, r2_score, mean_squared_error, mean_absolute_error*
+*accuracy_score, precision_score, recall_score, r2_score, mean_squared_error, mean_absolute_error, roc_auc_score, f1_score, make_scorer, confusion_matrix*
