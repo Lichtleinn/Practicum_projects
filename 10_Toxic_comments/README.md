@@ -21,3 +21,9 @@
 
 ## Используемые библиотеки
 *pandas, numpy, sklearn, matplotlib, seaborn, math, scipy, datetime, random, phik*
+
+## Используемые методы
+*LinearRegression, LogisticRegression, OneVsRestClassifier, train_test_split, StandardScaler, OneHotEncoder, confusion_matrix, normaltest, shapiro, anderson*
+
+## Метрики
+*accuracy_score, precision_score, recall_score, r2_score, mean_squared_error, mean_absolute_error*
