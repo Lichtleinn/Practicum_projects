@@ -1,29 +1,35 @@
-# Недвижимость Санкт-Петербурга
-
+# Определение стоимости автомобилей
 
 ## Данные
-
-Архив объявлений сервиса Яндекс Недвижимость о продаже квартир в Санкт-Петербурге и соседних населённых пунктах за несколько лет:
-- общая площадь
-- жилая площадь
-- площадь кухни
-- цена объекта
-- количество комнат
-- высота потолков
-- тип этажа квартиры («первый», «последний», «другой»)
-- общее количество этажей в доме
-- расстояние до центра города в метрах
-- расстояние до ближайшего парка
-
+Признаки автомобилей:
+- DateCrawled — дата скачивания анкеты из базы
+- VehicleType — тип автомобильного кузова
+- RegistrationYear — год регистрации автомобиля
+- Gearbox — тип коробки передач
+- Power — мощность (л. с.)
+- Model — модель автомобиля
+- Kilometer — пробег (км)
+- RegistrationMonth — месяц регистрации автомобиля
+- FuelType — тип топлива
+- Brand — марка автомобиля
+- Repaired — была машина в ремонте или нет
+- DateCreated — дата создания анкеты
+- NumberOfPictures — количество фотографий автомобиля
+- PostalCode — почтовый индекс владельца анкеты (пользователя)
+- LastSeen — дата последней активности пользователя
+- Price — цена (евро)
+  
 ## Задача
-
-Провести исследовательский анализ данных, который поможет установить параметры, влияющие на цену объектов. Это позволит построить автоматизированную систему: она отследит аномалии и мошенническую деятельность. 
+Построить модель, которая предсказывает стоимоть подержанных автомобилей на основе технических характеристик, комплектации, года выпуска. Критерии, которые важны заказчику:
+- качество предсказания
+- время обучения модели
+- время предсказания модели
 
 ## Используемые библиотеки
-*pandas, numpy, sklearn, matplotlib, seaborn, math, scipy, datetime, random, phik*
+*pandas, numpy, sklearn, matplotlib, seaborn, datetime, time, math, scipy, phik, catboost, lightgbm*
 
 ## Используемые методы
-*LinearRegression, LogisticRegression, OneVsRestClassifier, train_test_split, StandardScaler, OneHotEncoder, confusion_matrix, normaltest, shapiro, anderson*
+*LinearRegression, LogisticRegression, DecisionTreeClassifier, DecisionTreeRegressor, RandomForestClassifier, RandomForestRegressor, ExtraTreesRegressor, CatBoostClassifier, CatBoostRegressor, LGBMRegressor, Pool, cv, train_test_split, Pipeline, SimpleImputer, OneHotEncoder, OrdinalEncoder, LabelEncoder, StandardScaler, MinMaxScaler, RobustScaler, normaltest, shapiro, anderson, qqplot, RandomizedSearchCV*
 
 ## Метрики
-*accuracy_score, precision_score, recall_score, r2_score, mean_squared_error, mean_absolute_error*
+*root_mean_squared_error*
