@@ -16,3 +16,7 @@
 
 ## Метрики
 *f1_score, make_scorer, cross_val_score*
+
+## Выводы
+
+Лучшая модель: LogisticRegression с метрикой 0,78
