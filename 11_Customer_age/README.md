@@ -16,3 +16,10 @@
 
 ## Метрики
 *accuracy_score, precision_score, recall_score, r2_score, mean_squared_error, mean_absolute_error*
+
+## Выводы
+
+Для решения задачи была обучена модель ResNet50
+Применена архитектура модели: backbone (без заморозки) + Top
+В модели использованы предобученные веса
+Метрика МАЕ модели = 6,29 на 10 эпохах
